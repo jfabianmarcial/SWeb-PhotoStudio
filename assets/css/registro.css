@@ -1,0 +1,41 @@
+/* ==========================================================
+   REGISTRO.CSS - Formulario de Registro de Clientes
+   ========================================================== */
+
+.register-wrapper {
+    min-height: calc(100vh - 160px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #111116 0%, #1a1a24 100%);
+    padding: 3.5rem 1rem;
+}
+
+.register-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    width: 100%;
+    max-width: 620px;
+    border: 1px solid rgba(197, 160, 89, 0.25);
+}
+
+.register-header {
+    background-color: var(--primary-color);
+    padding: 2.2rem 2rem 1.8rem;
+    text-align: center;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.register-body {
+    padding: 2.5rem;
+}
+
+.password-strength-bar {
+    height: 4px;
+    border-radius: 2px;
+    margin-top: 6px;
+    transition: all 0.3s ease;
+    background-color: #e9ecef;
+}

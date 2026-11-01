@@ -1,0 +1,53 @@
+/* ==========================================================
+   CITAS.CSS - Listado y Gestión de Citas/Sesiones
+   ========================================================== */
+
+.citas-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
+}
+
+.table-citas th {
+    background-color: #fafbfc;
+    font-weight: 600;
+    color: #495057;
+    font-size: 0.88rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.table-citas td {
+    vertical-align: middle;
+    padding: 1rem 0.75rem;
+}
+
+/* Badges de estado de reserva */
+.badge-status {
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.badge-pendiente {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.badge-confirmada {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.badge-completada {
+    background-color: #e0e7ff;
+    color: #3730a3;
+}
+
+.badge-cancelada {
+    background-color: #fee2e2;
+    color: #991b1b;
+}

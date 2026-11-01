@@ -1,0 +1,49 @@
+/* ==========================================================
+   CONTACTO.CSS - Información, Ubicación y Formulario
+   ========================================================== */
+
+/* Bloques de información de contacto */
+.contact-info-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.8rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
+    height: 100%;
+}
+
+.contact-icon {
+    width: 52px;
+    height: 52px;
+    background-color: rgba(197, 160, 89, 0.15);
+    color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+}
+
+/* Tarjeta del Formulario */
+.contact-form-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--border-color);
+}
+
+/* Contenedor del Mapa */
+.map-responsive-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    height: 380px;
+}
+
+.map-responsive-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

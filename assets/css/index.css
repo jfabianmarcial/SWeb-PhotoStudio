@@ -1,0 +1,51 @@
+/* ==========================================================
+   INDEX.CSS - Estilos para la Página Principal (Home)
+   ========================================================== */
+
+/* Hero Banner */
+.hero-section {
+    position: relative;
+    background: linear-gradient(rgba(17, 17, 22, 0.75), rgba(17, 17, 22, 0.85)), 
+                url('../img/hero-bg.jpg') center/cover no-repeat;
+    background-color: #1a1a24;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.hero-title span {
+    color: var(--secondary-color);
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #d1d5db;
+    max-width: 650px;
+}
+
+/* Sección de Servicios Destacados */
+.featured-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.featured-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Banner de Cotización Rápida */
+.cta-banner {
+    background-color: var(--primary-color);
+    border-left: 5px solid var(--secondary-color);
+}

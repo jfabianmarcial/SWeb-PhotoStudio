@@ -1,0 +1,64 @@
+/* ==========================================================
+   NOSOTROS.CSS - Historia, Equipo Fotográfico y Filosofía
+   ========================================================== */
+
+/* Cabecera / Sección Historia */
+.about-hero {
+    background-color: var(--light-bg);
+    padding: 4rem 0;
+}
+
+.about-badge {
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Tarjetas del Equipo de Fotógrafos */
+.team-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.team-img-wrapper {
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+}
+
+.team-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.team-card:hover .team-img-wrapper img {
+    transform: scale(1.05);
+}
+
+.team-role {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Sección de Equipo Técnico / Cámaras */
+.equipment-box {
+    background: #fff;
+    border-left: 4px solid var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}

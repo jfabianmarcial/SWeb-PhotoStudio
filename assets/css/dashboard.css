@@ -1,0 +1,73 @@
+/* ==========================================================
+   DASHBOARD.CSS - Panel de Control y Resumen de Sesión
+   ========================================================== */
+
+.dashboard-container {
+    padding: 2.5rem 0;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 160px);
+}
+
+/* Tarjetas de Estadísticas / KPI */
+.stat-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    transition: transform 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+}
+
+.stat-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.stat-icon.gold {
+    background-color: rgba(197, 160, 89, 0.15);
+    color: var(--secondary-color);
+}
+
+.stat-icon.blue {
+    background-color: #e0f2fe;
+    color: #0284c7;
+}
+
+.stat-icon.green {
+    background-color: #dcfce7;
+    color: #16a34a;
+}
+
+.stat-value {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 0.1rem;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Tablas del panel */
+.dashboard-table-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    padding: 1.5rem;
+}

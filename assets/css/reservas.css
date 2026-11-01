@@ -1,0 +1,81 @@
+/* ==========================================================
+   RESERVAS.CSS - Formulario de Cotización y Agendamiento
+   ========================================================== */
+
+/* Contenedor del Formulario */
+.booking-container {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.booking-sidebar {
+    background: var(--primary-color);
+    color: #ffffff;
+    padding: 2.5rem 2rem;
+}
+
+.booking-sidebar h4 {
+    color: var(--secondary-color);
+}
+
+.step-indicator {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.step-number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(197, 160, 89, 0.2);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.step-indicator.active .step-number {
+    background-color: var(--secondary-color);
+    color: #111;
+}
+
+/* Tarjetas de Selección de Paquete */
+.package-option {
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: #fff;
+}
+
+.package-option:hover {
+    border-color: #ced4da;
+    background-color: #fafafa;
+}
+
+.package-option.selected,
+.package-option input[type="radio"]:checked + .package-content {
+    border-color: var(--secondary-color);
+    background-color: rgba(197, 160, 89, 0.05);
+}
+
+/* Resumen del Precio Estimado */
+.price-summary-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    border: 1px dashed #ced4da;
+}
+
+.price-summary-box .total-amount {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
